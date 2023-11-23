@@ -7,6 +7,10 @@ output "cluster_name" {
   }
 }
 
-# output "providers" {
-#   value = local.providers
-# }
+output "alias" {
+  value = local.alias
+}
+
+output "alias_0" {
+  value = local.alias["0"]
+}
